@@ -104,6 +104,8 @@ cp .env.example .env
 # PowerShell / cmd 直接调用 Bun
 bun --env-file=.env ./src/entrypoints/cli.tsx
 
+# PowerShell / cmd 环境变量配置好后(/bin),直接使用claude-haha启动交互模式
+
 # 或在 Git Bash 中运行
 ./bin/claude-haha
 ```
